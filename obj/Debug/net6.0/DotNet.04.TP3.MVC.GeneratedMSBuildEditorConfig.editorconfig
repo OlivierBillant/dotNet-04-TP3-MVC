@@ -15,12 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\obillant2022\Documents\DotNet\TP\DotNet.TP\DotNet.04.TP3.MVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.04.TP3.MVC/Views/Chat/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.04.TP3.MVC/Views/Chat/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.04.TP3.MVC/Views/Chat/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.04.TP3.MVC/Views/Chat/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/obillant2022/Documents/DotNet/TP/DotNet.TP/DotNet.04.TP3.MVC/Views/Chat/Index.cshtml]

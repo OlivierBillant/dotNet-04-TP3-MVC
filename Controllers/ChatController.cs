@@ -21,48 +21,49 @@ public class ChatController : Controller
         return this.View(meuteDeChats.Where(chat => chat.Id == id).FirstOrDefault());
     }
 
-    /* // GET: ChatController/Create
-     public ActionResult Create()
-     {
-         return View();
-     }
+    // GET: ChatController/Create
+    public ActionResult Create()
+    {
+        return View();
+    }
 
-     // POST: ChatController/Create
-     [HttpPost]
-     [ValidateAntiForgeryToken]
-     public ActionResult Create(IFormCollection collection)
-     {
-         try
-         {
-             return RedirectToAction(nameof(Index));
-         }
-         catch
-         {
-             return View();
-         }
-     }
+    // POST: ChatController/Create
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public ActionResult Create(ChatViewModel chat)
+    {
+        try
+        {/*
+            meuteDeChats.Add(new ChatViewModel(chat.Id, chat.Nom, chat.Age, chat.Couleur));*/
+            return RedirectToAction(nameof(Index));
+        }
+        catch
+        {
+            return View();
+        }
+    }
 
-     // GET: ChatController/Edit/5
-     public ActionResult Edit(int id)
-     {
-         return View();
-     }
+    // GET: ChatController/Edit/5
+    public ActionResult Edit(int id)
+    {
+        return View((meuteDeChats.FirstOrDefault(chat => chat.Id == id)));
+    }
 
-     // POST: ChatController/Edit/5
-     [HttpPost]
-     [ValidateAntiForgeryToken]
-     public ActionResult Edit(int id, IFormCollection collection)
-     {
-         try
-         {
-             return RedirectToAction(nameof(Index));
-         }
-         catch
-         {
-             return View();
-         }
-     }
-*/
+    // POST: ChatController/Edit/5
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public ActionResult Edit(int id, ChatViewModel chat)
+    {
+        try
+        {
+            return RedirectToAction(nameof(Index));
+        }
+        catch
+        {
+            return View();
+        }
+    }
+
     // GET: ChatController/Delete/5
     public ActionResult Delete(int id)
     {
